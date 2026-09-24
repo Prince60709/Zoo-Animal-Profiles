@@ -61,3 +61,7 @@ h1 {
 .small {
     font-size: 10px;
 }
+
+.index-images a:hover {
+    image-rendering: ;
+}
