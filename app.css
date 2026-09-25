@@ -12,6 +12,23 @@ img {
     object-fit: cover;
 }
 
+.hover-images {
+    position: relative;
+}
+
+.top-img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: all ease 300ms;
+}
+
+.top-img:hover {
+    opacity: 1;
+    
+}
+
 nav#main-nav {
     background-color: #ff6611;
     display: flex;
@@ -62,6 +79,6 @@ h1 {
     font-size: 10px;
 }
 
-.index-images a:hover {
-    image-rendering: ;
+#index-header {
+    font-size: 70px;
 }
