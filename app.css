@@ -36,7 +36,6 @@ nav#main-nav {
 }
 
 #main-nav a {
-    background-color: #229933;
     padding: 1em;
     display: inline-block;
     color: #000000;
@@ -47,8 +46,14 @@ nav#main-nav {
 }
 
 #main-nav a:hover {
-    background-color: #cccccc;
+    background-color: #229933;
     color: #000000;
+}
+
+#main-nav {
+    position: fixed;
+    width: 100%;
+    z-index: 10;
 }
 
 h1 {
@@ -68,7 +73,15 @@ h1 {
 }
 
 .half {
-    width: 47%;
+    width: 49%;
+}
+
+.left {
+    width: 60%;
+}
+
+.right {
+    width: 35%;
 }
 
 .quarter {
@@ -81,4 +94,40 @@ h1 {
 
 #index-header {
     font-size: 70px;
+}
+
+.fix {
+    width: 100%;
+    text-align: center;
+}
+
+main {
+    font-size: larger;
+    padding-top: 5.6rem;
+}
+
+.page-header {
+    margin-top: 0;
+}
+
+a {
+    color: #00aaff;
+}
+
+table {
+    border: 1px solid #229933;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #226600;
+    width: 50%;
+}
+
+th {
+    text-align: right;
+}
+
+td {
+    text-align: left;
 }
